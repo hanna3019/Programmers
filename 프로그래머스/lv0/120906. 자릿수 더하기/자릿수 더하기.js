@@ -6,3 +6,8 @@ function solution(n) {
     }
     return answer;
 }
+
+/*
+parseInt 대신 Number 가능
+n.toString().split('').reduce((acc, cur) => acc + Number(cur), 0)
+*/
